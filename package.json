@@ -1,0 +1,17 @@
+{
+  "name": "blogify",
+  "version": "1.0.0",
+  "description": "blogging website",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Amay Naik",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  }
+}
